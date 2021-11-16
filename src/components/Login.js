@@ -15,13 +15,13 @@ const Login = () => {
                 >
                     <GoogleOutlined /> Sign In with Google
                 </div>
-                <br /><br />
+                {/* <br /><br />
                 <div
                     className="login-button facebook"
                     onClick={()=> auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider()).then(res=>console.log(res)).catch(error=>{console.log(error)})}
                 >
                     <FacebookOutlined /> Sign In with Facebook
-                </div>
+                </div> */}
             </div>
         </div>
     );
